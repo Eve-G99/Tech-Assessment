@@ -1,0 +1,76 @@
+#root {
+    max-width: 1280px;
+    margin: 1rem auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+.contentEditable {
+    height: 400px;
+    width: 100%;
+    padding: 10px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    overflow-y: scroll;
+    outline: none;
+}
+
+.placeholder {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -22rem;
+    padding-left: 40px;
+    pointer-events: none;
+    text-align: center;
+
+}
+
+.toolbar-wrapper {
+    display: flex;
+}
+
+.glyf-editor-bold {
+    font-weight: 600;
+}
+
+.glyf-editor-italic {
+    font-style: italic;
+}
+
+.glyf-editor-underline {
+    text-decoration: underline;
+}
+
+.glyf-editor-strikethrough {
+    text-decoration: line-through;
+}
+
+.glyf-editor-underlineStrikethrough {
+    text-decoration: underline line-through;
+}
+
+.glyf-editor-h1 {
+    font-size: 48px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.glyf-editor-h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.glyf-editor-h3 {
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.glyf-editor-banner {
+    margin: 8px 0;
+    padding: 8px;
+}
